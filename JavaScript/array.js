@@ -3,18 +3,22 @@ console.log(numeros);
 // Mostrar e adicionar no FIM
 numeros.push (6)
 console.log(numeros);
+//Remover um item no final
+numeros.pop(6)
+console.log(numeros)
+
 // Mostrar e adicionar no INICIO
-numeros.shift (1);
-console.log(numeros);
-// Imprimir um número especifico
 numeros.unshift(-3);
 console.log(numeros)
+// Remover no INICIO
+numeros.shift (1);
+console.log(numeros);
 // ou
 console.log("Mostrando: "+numeros[3]);
 
-//pop=remover um intem no final
 
 //inserir um valor em uma posição especifica do array
+//(index,remoção,inserir)
 numeros.splice(2, 0, 17);
 console.log(numeros);
 
